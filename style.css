@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Header section styling */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Logo styling */
+.logo {
+  width: 100px;
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+main p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+main img {
+  width: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Facts group styling */
+.factsgroup {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.facts {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.facts img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.facts h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.facts p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* Value proposition and business registration sections */
+#value\ proposition, #register\ a\ business {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#value\ proposition h2, #register\ a\ business h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+#value\ proposition p, #register\ a\ business p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#value\ proposition ul, #register\ a\ business ul {
+  list-style: none;
+  padding: 0;
+}
+
+#value\ proposition ul li, #register\ a\ business ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Footer styling */
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
